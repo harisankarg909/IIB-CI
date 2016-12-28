@@ -1,0 +1,96 @@
+
+==============================================
+
+!Wed Dec 21 23:02:43 IST 2016
+
+Processing file ConsumerWebService.
+Application file ConsumerWebService.appzip successfully added to the BAR.
+Application compiled contents:
+    Generating .xsdzip file for message set "Cosumer_mset" 
+    
+    Generating schema for no XML Wire format
+    Generating schema using the lax option
+    
+    
+    Processing File : "/Cosumer_mset/Cosumer_mset/org/tempuri/webservicemset/Webservice_msetSOAP_HTTP_Service.mxsd"
+    
+    
+    
+    Processing File : "/Cosumer_mset/Cosumer_mset/org/tempuri/webservicemset/xsd_xsd0.mxsd"
+    
+    
+    
+    Processing File : "/Cosumer_mset/Cosumer_mset/org/tempuri/webservicemset/xsd_xsd1.mxsd"
+    
+    
+    
+    Processing File : "/Cosumer_mset/Cosumer_mset/org/xmlsoap/schemas/soap/envelope/soapenv11.mxsd"
+    
+    
+    
+    Processing File : "/Cosumer_mset/Cosumer_mset/soap.mxsd"
+    
+    
+    
+    Processing File : "/Cosumer_mset/Cosumer_mset/xsd_xsd2.mxsd"
+    
+    
+    
+    Processing File : "/Cosumer_mset/Cosumer_mset/xsd_xsd3.mxsd"
+    
+    Saving File : "/Cosumer_mset/.GeneratedSchemas/org/tempuri/webservicemset/Webservice_msetSOAP_HTTP_Service.xsd" 
+    
+    Saving File : "/Cosumer_mset/.GeneratedSchemas/org/tempuri/webservicemset/xsd_xsd0.xsd" 
+    
+    Saving File : "/Cosumer_mset/.GeneratedSchemas/org/tempuri/webservicemset/xsd_xsd1.xsd" 
+    
+    Saving File : "/Cosumer_mset/.GeneratedSchemas/org/xmlsoap/schemas/soap/envelope/soapenv11.xsd" 
+    
+    Saving File : "/Cosumer_mset/.GeneratedSchemas/soap.xsd" 
+    
+    Saving File : "/Cosumer_mset/.GeneratedSchemas/xsd_xsd2.xsd" 
+    
+    Saving File : "/Cosumer_mset/.GeneratedSchemas/xsd_xsd3.xsd" 
+    
+    Saving file "/Cosumer_mset/.GeneratedSchemas/org/w3/www/xml/_1998/namespace/xml.xsd" 
+    
+    Processing file "/Cosumer_mset/Cosumer_mset/org/tempuri/webservicemset/Webservice_msetSOAP_HTTP_Service.wsdl" 
+    
+    Saving file "/Cosumer_mset/.ModifiedWSDLs/org/tempuri/webservicemset/Webservice_msetSOAP_HTTP_Service.wsdl" 
+    
+    Saving file "/Cosumer_mset/.KeywordsFile/meta-inf/keywords.txt" 
+    
+    Saving file "/Cosumer_mset/Cosumer_mset/messageSet.mset" 
+    
+    
+    Elapsed time: 0.776 seconds
+    Warnings: 0
+    
+    
+    Operation complete
+    
+    
+    
+    
+    Processing file ConsumerWebService\consumermsgFlow.msgflow
+    Successfully added file ConsumerWebService\consumermsgFlow.msgflow to archive file
+    Elapsed time: 0.429 second(s).
+    
+    Processing file ConsumerWebService\consumermsgFlow.msgflow
+    Successfully added file ConsumerWebService\consumermsgFlow.msgflow to archive file
+    Elapsed time: 0.429 second(s).
+    
+    Processing file ConsumerWebService\consumermsgFlow.msgflow
+    Message flow "consumermsgFlow.msgflow" can be deployed as source since it does not include any subflows defined in the MSGFLOW files
+    or any nodes unsupported by the source deploy. You may select -deployAsSource flag when building the
+    BAR with MQSICREATEBAR command or do not select "Compile and  in-line resources" build option on the BAR editor.
+    
+    
+    Processing file ConsumerWebService\application.descriptor.
+    Successfully added file ConsumerWebService\application.descriptor to BAR file.
+    Elapsed time: 0.001 second(s).
+    
+    Successfully added file ConsumerWebService\application.descriptor to BAR file.
+    
+
+Elapsed time: 1.609 second(s).

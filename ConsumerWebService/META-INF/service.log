@@ -1,0 +1,30 @@
+
+==============================================
+
+!Wed Dec 21 23:02:43 IST 2016
+Message flow ConsumerWebService\consumermsgFlow.msgflow successfully loaded
+Message flow ConsumerWebService\consumermsgFlow.msgflow successfully compiled
+Message flow ConsumerWebService\consumermsgFlow.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+Compute             consumermsgFlow     5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+Message flow ConsumerWebService\consumermsgFlow.msgflow successfully loaded
+Message flow ConsumerWebService\consumermsgFlow.msgflow successfully compiled
+Message flow ConsumerWebService\consumermsgFlow.msgflow successfully added to archive file
+
+Node                Flow                Version             Reason              
+----------------------------------------------------------------------------------------------------
+Compute             consumermsgFlow     5.0                 Generate 5.0 compatible ESQL by default.
+This compatibility level supports ESQL source code debugging.
+Deploying 5.0 compatible ESQL code will cause a syntax error on version 2.1 or previous brokers.
+
+Successfully added file ConsumerWebService\application.descriptor to BAR file.
+
+Successfully added file ConsumerWebService\application.descriptor to BAR file.
+
+Successfully added file ConsumerWebService\application.descriptor to BAR file.
+
+Successfully added file ConsumerWebService\application.descriptor to BAR file.

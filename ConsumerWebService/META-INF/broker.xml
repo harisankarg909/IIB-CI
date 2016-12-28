@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><Broker>
+<CompiledApplication>
+<ConfigurableProperty uri="startMode"/>
+<ConfigurableProperty uri="javaIsolation"/>
+</CompiledApplication>
+<CompiledMessageFlow name="consumermsgFlow">
+<ConfigurableProperty uri="consumermsgFlow#additionalInstances"/>
+<ConfigurableProperty uri="consumermsgFlow#commitCount"/>
+<ConfigurableProperty uri="consumermsgFlow#commitInterval"/>
+<ConfigurableProperty uri="consumermsgFlow#coordinatedTransaction"/>
+<ConfigurableProperty uri="consumermsgFlow#consumerPolicySet"/>
+<ConfigurableProperty uri="consumermsgFlow#providerPolicySet"/>
+<ConfigurableProperty uri="consumermsgFlow#consumerPolicySetBindings"/>
+<ConfigurableProperty uri="consumermsgFlow#providerPolicySetBindings"/>
+<ConfigurableProperty uri="consumermsgFlow#securityProfileName"/>
+<ConfigurableProperty uri="consumermsgFlow#monitoringProfile"/>
+<ConfigurableProperty uri="consumermsgFlow#startMode"/>
+<ConfigurableProperty uri="consumermsgFlow#startInstancesWhenFlowStarts"/>
+<ConfigurableProperty uri="consumermsgFlow#maximumRateMsgsPerSec"/>
+<ConfigurableProperty uri="consumermsgFlow#wlmPolicy"/>
+<ConfigurableProperty uri="consumermsgFlow#notificationThresholdMsgsPerSec"/>
+<ConfigurableProperty uri="consumermsgFlow#processingTimeoutSec"/>
+<ConfigurableProperty uri="consumermsgFlow#processingTimeoutAction"/>
+<ConfigurableProperty uri="consumermsgFlow#Compute.connectDatasourceBeforeFlowStarts"/>
+<ConfigurableProperty uri="consumermsgFlow#Compute.dataSource"/>
+<ConfigurableProperty uri="consumermsgFlow#Compute.validateMaster"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.SSLCipherSpec"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.SSLPeerName"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.additionalInstances"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.channelName"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.componentLevel"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.connection"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.destinationQueueManagerName"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.listenerPortNumber"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.policyUrl"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.queueManagerHostname"/>
+<ConfigurableProperty override="SOAP.IN2" uri="consumermsgFlow#MQ Input.queueName"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.resetBrowseTimeout"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.securityIdentity"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.securityProfileName"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.serializationToken"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.topicProperty"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.useSSL"/>
+<ConfigurableProperty uri="consumermsgFlow#MQ Input.validateMaster"/>
+<ConfigurableProperty override="no" uri="consumermsgFlow#SOAP Request.acceptCompressedResponses"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.allowMTOM"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.allowedSSLCiphers"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.enableCRLCheck"/>
+<ConfigurableProperty override="no" uri="consumermsgFlow#SOAP Request.hostnameChecking"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.httpProxyLocation"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.keyAlias"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.policySet"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.policySetBindings"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.requestCompressionType"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.requestTimeout"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.securityProfileName"/>
+<ConfigurableProperty override="TLS" uri="consumermsgFlow#SOAP Request.sslProtocol"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.validateFailureAction"/>
+<ConfigurableProperty uri="consumermsgFlow#SOAP Request.validateMaster"/>
+<ConfigurableProperty override="http://localhost:7800/Webservice_msetSOAP_HTTP_Service" uri="consumermsgFlow#SOAP Request.webServiceURL"/>
+</CompiledMessageFlow>
+</Broker>
